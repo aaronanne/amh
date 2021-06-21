@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anime Mad House</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="slideshow.js">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+<style>
+/*grid-container*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 25px;
+}
+</style>
+
+</head>
+<body>
+<!-- First Part -->
+	<h1><strong>Anime Mad House</strong></h1></strong><hr>
+
+  	<!-- 	<div class="products">
+  		<ul>Products</button>
+  		<ul>
+  			<li><a href="">Grandista</a></li>
+  			<li><a href="">Ichiban Kuji</a></li>
+  			<li><a href="">Qposket</a></li>
+  		</ul>
+	  	</div> -->
+
+	  	Products <br>
+	  	<select name="Products">
+	  	<option value="Grandista" name="grandista">Grandista</option>
+	  	<option value="Ichiban Kuji"name="Ichiban Kuji">Ichiban Kuji</option>
+	  	<option value="Qposket"name="Qposket">Qposket</option>
+</select>
+  	<h2>Welcome Home Mad Peeps!</h2>
+
+<!--start slider -->
+<style>
+      .slider {
+        width: 500px;
+        height: 300px;
+        background-color: dimgray;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: gray;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="http://marveltoynews.com/wp-content/uploads/2019/10/Hot-Toys-Avengers-Endgame-Figures-Captain-America-Thor-Iron-Man-Starlord.jpg" class="slide" width="500" height="300" />
+        <img src="https://cdn.shopify.com/s/files/1/0088/9552/9065/products/YushQ1HQ_jpeg_2000x.jpg?v=1613157274" class="slide" width="500" height="300" />
+        <img src="https://www.sukipan.com/images/product_images/original_images/x_blf24283_h.jpg" class="slide" width="500" height="300" />
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+<!-- end of slider -->
+
+
+<div class="grid-container">
+	  	<div class="card">
+  <img src="https://cdn.shopify.com/s/files/1/2802/9310/products/logo_16836_580x.jpg?v=1594468107" alt="Kakashi" style="width:95%">
+  <h6>Grandista Nero Kakashi</h6>
+  <p class="price">$15.66</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="http://assets.pys.com/media/catalog/product/cache/6/image/9df78eab33525d08d6e5fb8d27136e95/b/z/bzbp38915_1.jpg" alt="Naruto" style="width:95%">
+  <h6>Grandista Nero Naruto Kid</h6>
+  <p class="price">$14.66</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="https://target.scene7.com/is/image/Target/GUEST_7a94b1de-bc88-4c70-bbc4-1e4c8726229e?wid=488&hei=488&fmt=pjpeg" alt="Naruto" style="width:95%">
+  <h6>Grandista Nero Naruto</h6>
+  <p class="price">$14.66</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="https://www.banpresto.jp/kuji/detail_img/2557271.jpg" alt="Rimuru" style="width:95%">
+  <h6>Ichiban Kuji Rimuru</h6>
+  <p class="price">$14.66</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="https://cdn.shopify.com/s/files/1/0367/9101/products/Kuji-My-Hero-Academia-Hero-Vs-Villian-Main_large.png?v=1618530560" alt="Midoriya" style="width:95%">
+  <h6>Ichiban Kuji Midoriya</h6>
+  <p class="price">$15.66</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="https://otsukai.com/public/item/22651/original-5db11297d87d5.jpeg" alt="Sasuke" style="width:95%">
+  <h6>Ichiban Kuji Sasuke</h6>
+  <p class="price">$15.66</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="https://www.otakuhobbitoysph.com/wp-content/uploads/2019/11/BAS59486-Shoto-Todoroki.jpg" alt="Naruto" style="width:64%">
+  <h6>Ichiban Kuji Todoroki</h6>
+  <p class="price">$14.66</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="https://cdn.shopify.com/s/files/1/0318/2649/products/2497408_large.jpg?v=1616398963" alt="Hawks" style="width:95%">
+  <h6>Ichiban Kuji Hawks</h6>
+  <p class="price">$15.66</p>
+  <p><button>Add to Cart</button></p>
+</div>
+  
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
